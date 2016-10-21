@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<title>Crystal Website</title>
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link rel="stylesheet" type="text/javascript" href="assets/game.js">
+	<script type="text/javascript" src="assets/game.js"></script>
+</head>
+<body>
+<h1 class="CC">CrystalsCollector!</h1>
+<br>
+<p class="instructions" >
+You will be given a random number at the start of the game.
+<br>
+There are four crystals below. By clicking on a crystal you will ad a specific amount of points to your total score.
+<br>
+You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+<br>
+The value of each crystal is hideen from you until you click on it.
+<br>
+Each time when the game starts, the game wil change the values of each crystal
+
+
+</p>
+<br>
+<h3 id="randomNumber"></h3>
+<h4 section="score">
+	<div  id="wins">Wins:</div >
+	<br>
+	<div  id="loses">Loses:</div >
+</h4>
+
+<br>
+<div class="images">
+	<img id="lightpink" src="assets/crystal1.jpg" alt="crystal1" style="width:200px;height:200px;">
+	<img id="lightgreen" src="assets/crystal2.jpg" alt="crystal2" style="width:200px;height:200px;">
+	<img id="lightblue" src="assets/crystal3.jpg" alt="crystal3" style="width:200px;height:200px;">
+	<img id="lightpurple" src="assets/crystal4.jpg" alt="crystal4" style="width:200px;height:200px;">	
+</div>
+
+<h6 id="yourScore"></h6>
+
+</body>
+</html>

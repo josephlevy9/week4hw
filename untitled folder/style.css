@@ -1,0 +1,43 @@
+h1 {
+background-color: orange;
+float: left;
+margin-right: 100px;
+
+}
+p{
+float: left;
+background-color: green;
+
+}
+h3{
+	float: left;
+	clear: left;
+	margin-top: 10px;
+	margin-right: 5px;
+	background-color: teal;
+	height: 70px;
+	width:90px;
+	font-size: 20px;
+
+}
+h4 {
+	float: left;
+	background-color: pink;
+	height: 70px;
+	width:90px;
+
+}
+h5 {
+	float: left;
+	clear:left;
+	background-color: blue;
+}
+h6 {
+	float: left;
+	background-color: blue;
+	clear: left;
+
+}
+.images{
+clear:left;
+}
